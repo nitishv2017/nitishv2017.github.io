@@ -1,0 +1,81 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+	font-family: helvetica;
+}
+h1{
+	margin-bottom: 15px;
+	text-align: center;
+}
+p{
+	clear:both;
+}
+section{
+	background-color: #f2f2f2;
+	border-width: 1px;
+	border-style: solid;
+	height: auto;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+h3{	border-width: 1px;
+	border-style: solid;
+	float: right;	
+	text-align: center;
+	width:auto;
+	font-family: calibri;
+	padding: 3px;
+	padding-left:2%;
+	padding-right: 2%;
+	margin-left: 2px;
+}
+.tajmahal{
+	background: #33cc33;
+	color: black;
+}
+.tower{
+	background: #ff661a;
+	color: black;
+}
+.wall{
+	background: #3399ff;
+	color: black;
+}
+
+div{
+	float:left;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .full{
+  	width:100%;
+  }
+  .md{
+  	width:95%;
+  }
+  
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}
